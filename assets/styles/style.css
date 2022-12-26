@@ -4,20 +4,20 @@
 
 :root {
     /*cores*/
-    --amarelo: #FFC756;
-    --laranja: #F66139;
-    --lilas: #7F8FFE;
-    --verde: #56B78C;
-    --cinza-claro: #D9D9D9;
-    --cinza-escuro: #959595;
+    --yellow: #FFC756;
+    --orange: #F66139;
+    --purple: #7F8FFE;
+    --green: #56B78C;
+    --light-gray: #D9D9D9;
+    --dark-gray: #959595;
 
     /*fontes*/
-    --fonte-primaria: 'Work Sans', sans-serif;
-    --fonte-secundaria: 'Fjalla One', sans-serif;
+    --font: 'Work Sans', sans-serif;
+    --font-second: 'Fjalla One', sans-serif;
 }
 
 body {
-    font-family: var(--fonte-primaria);
+    font-family: var(--font);
     height: 100vh;
 }
 
@@ -28,7 +28,7 @@ body {
 .calendar__title {
     font-size: 20px;
     text-transform: uppercase;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--font-second);
 }
 
 img {
@@ -44,7 +44,7 @@ img:hover {
 
 .menu {
     background-color: black;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--font-second);
     font-size: 16px;
     height: 258px;
     padding: 0 1.5rem;
@@ -52,7 +52,7 @@ img:hover {
 }
 
 .menu__title {
-    background-image: url("../img/logo-branco-maior.png");
+    background-image: url("../img/bigger-white-logo.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 40px 100px;
@@ -67,7 +67,7 @@ img:hover {
 }
 
 .menu__item a:hover {
-    color: var(--amarelo);
+    color: var(--yellow);
 }
 
 .menu__research {
@@ -82,7 +82,7 @@ img:hover {
 .menu__input {
     color: white;
     background-color: black;
-    background-image: url("../img/icone-busca.png");
+    background-image: url("../img/icon-search.png");
     background-repeat: no-repeat;
     background-position: right;
     font-size: 16px;
@@ -95,21 +95,21 @@ img:hover {
 
 .menu__item:nth-child(4)::before {
     padding-right: 8px;
-    content: url("../img/icone-gps.png");
+    content: url("../img/icon-gps.png");
     cursor: pointer;
     transition: 3.3s;
 }
 
 .menu__item:nth-child(4)::after {
     padding-left: 8px;
-    content: url("../img/icone-seta.png");
+    content: url("../img/icon-arrow.png");
     cursor: pointer;
     transition: 3.3s;
 }
 
 .menu__item:nth-child(4)::after:hover,
 .menu__item:nth-child(4)::before:hover {
-    background-color: var(--amarelo);
+    background-color: var(--yellow);
 }
 
 
@@ -156,22 +156,22 @@ img:hover {
 
 .categories__list .categories__item:nth-child(1),
 .categories__item:nth-child(5) {
-    background-color: var(--amarelo);
+    background-color: var(--yellow);
 }
 
 .categories__list .categories__item:nth-child(2),
 .categories__item:nth-child(6) {
-    background-color: var(--laranja);
+    background-color: var(--orange);
 }
 
 .categories__list .categories__item:nth-child(3),
 .categories__item:nth-child(7) {
-    background-color: var(--lilas);
+    background-color: var(--purple);
 }
 
 .categories__list .categories__item:nth-child(4),
 .categories__item:nth-child(8) {
-    background-color: var(--verde);
+    background-color: var(--green);
 }
 
 .highlights {
@@ -215,7 +215,7 @@ img:hover {
 }
 
 .events__item {
-    background-color: var(--cinza-claro);
+    background-color: var(--light-gray);
     width: 307px;
     padding-bottom: 1rem;
     height: 318px;
@@ -258,7 +258,7 @@ img:hover {
 .calendar__button button:hover,
 .events__item button:hover,
 .calendar__attraction button:hover {
-    background-color: var(--amarelo);
+    background-color: var(--yellow);
 }
 
 .events__button button,
@@ -281,7 +281,7 @@ img:hover {
 }
 
 .calendar__item {
-    background-color: var(--cinza-claro);
+    background-color: var(--light-gray);
 }
 
 .calendar__item img {
@@ -290,7 +290,7 @@ img:hover {
 
 .calendar__item .calendar__info {
     text-align: center;
-    background-color: var(--cinza-escuro);
+    background-color: var(--dark-gray);
     color: white;
     text-transform: uppercase;
     padding-top: 1rem;
@@ -330,11 +330,11 @@ img:hover {
 /* Footer */
 
 .footer {
-    color: var(--cinza-claro);
+    color: var(--light-gray);
     background-color: black;
     margin: 1rem 0;
     font-size: 14px;
-    font-family: var(--fonte-primaria);
+    font-family: var(--font);
     padding: 1rem 1.5rem;
     line-height: 2;
     white-space: nowrap;
@@ -346,7 +346,7 @@ img:hover {
 
 .footer__title {
     font-size: 18px;
-    font-family: var(--fonte-secundaria);
+    font-family: var(--font-second);
 }
 
 .footer__logo {
@@ -354,7 +354,7 @@ img:hover {
 }
 
 .footer__logo h4 {
-    background-image: url("../img/logo_footer.png");
+    background-image: url("../img/logo__footer.png");
     background-repeat: no-repeat;
     background-position: center;
     height: 60px;
@@ -400,7 +400,7 @@ img:hover {
     }
 
     .categories__img {
-        background-image: url("../img/apresentacao-720.png");
+        background-image: url("../img/performance-720.png");
     }
 
     /* calendar */
@@ -428,7 +428,7 @@ img:hover {
     }
 
     .menu__title {
-        background-image: url("../img/logo-branco-menor.png");
+        background-image: url("../img/smaller-white-logo.png");
         padding: 43px 55px;
     }
 

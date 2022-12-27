@@ -1,0 +1,71 @@
+@import "flex/menu.css";
+
+.menu {
+    background-color: black;
+    font-family: var(--font-second);
+    font-size: 16px;
+    height: 258px;
+    padding: 0 1.5rem;
+    white-space: nowrap;
+}
+
+.menu__title {
+    background-image: url("../../img/bigger-white-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    padding: 40px 100px;
+    width: 100%;
+}
+
+.menu__item a {
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.menu__item a:hover {
+    color: var(--yellow);
+}
+
+.menu__research {
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.menu__input {
+    color: white;
+    background-color: black;
+    background-image: url("../../img/icon-search.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border: none;
+    font-size: 16px;
+    line-height: 25px;
+    outline: none;
+    padding-left: 5px;
+    width: 98%;
+}
+
+.menu__item:nth-child(4)::before {
+    cursor: pointer;
+    content: url("../../img/icon-gps.png");
+    padding-right: 8px;
+    transition: 3.3s;
+}
+
+.menu__item:nth-child(4)::after {
+    content: url("../../img/icon-arrow.png");
+    cursor: pointer;
+    padding-left: 8px;
+    transition: 3.3s;
+}
+
+.menu__item:nth-child(4)::after:hover,
+.menu__item:nth-child(4)::before:hover {
+    background-color: var(--yellow);
+}

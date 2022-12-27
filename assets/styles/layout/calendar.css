@@ -1,0 +1,51 @@
+.calendar__title {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.calendar__item {
+    background-color: var(--light-gray);
+}
+
+.calendar__item img {
+    width: 100%;
+}
+
+.calendar__item .calendar__info {
+    background-color: var(--dark-gray);
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.calendar__info h3 {
+    font-size: 2rem;
+}
+
+.calendar__info h4,
+.calendar__info h5 {
+    font-size: 1.5rem;
+}
+
+.calendar__item .calendar__attraction {
+    padding: 1rem;
+    text-align: center;
+}
+
+.calendar__attraction h6 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.calendar__attraction button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: .5rem 0;
+    transition: .5s;
+    width: 125px;
+}

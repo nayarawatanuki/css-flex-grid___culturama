@@ -1,0 +1,62 @@
+.events__title {
+    margin-bottom: 1rem;
+}
+
+.events__item {
+    background-color: var(--light-gray);
+    height: 318px;
+    padding-bottom: 1rem;
+    width: 307px;
+}
+
+.events__item img {
+    width: 100%;
+}
+
+.events__item h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.events__item h4,
+.events__item h5 {
+    font-size: 16px;
+}
+
+.events__item h3,
+.events__item h4,
+.events__item h5 {
+    padding-left: 1rem;
+}
+
+.events__item button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 1rem;
+    outline: none;
+    padding: .5rem 0;
+    transition: .5s;
+    text-align: center;
+    width: 80px;
+}
+
+.events__button button:hover,
+.calendar__button button:hover,
+.events__item button:hover,
+.calendar__attraction button:hover {
+    background-color: var(--yellow);
+}
+
+.events__button button,
+.calendar__button button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: .75rem 0;
+    transition: .5s;
+    width: 148px;
+}

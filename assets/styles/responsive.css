@@ -1,0 +1,123 @@
+@media(min-width: 720px) {
+
+    /* Header */
+    .menu {
+        height: 217px;
+    }
+
+    .menu__title {
+        padding: 40px 55px;
+        width: auto;
+    }
+
+    .header__seu-local::before {
+        padding-right: 8px;
+    }
+
+    .header__seu-local::after {
+        padding-left: 15px;
+    }
+
+    .menu__research {
+        width: 312px;
+    }
+
+    /*main*/
+    .principal {
+        padding: 0 2.5rem;
+    }
+
+    /* categories */
+    .categories__list {
+        height: 304px;
+    }
+
+    .highlights__playbar {
+        width: 417.96px;
+    }
+
+    .categories__img {
+        background-image: url("../img/performance-720.png");
+    }
+
+    /* calendar */
+    .calendar__item {
+        width: 308px;
+    }
+
+    /* Rodapé */ 
+    .footer {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+}
+
+@media(min-width: 1440px) {
+
+    /* Header */
+    .menu {
+        font-size: 20px;
+        height: 100px;
+        padding: 0 7.5rem;
+    }
+
+    .menu__title {
+        background-image: url("../img/smaller-white-logo.png");
+        padding: 43px 55px;
+    }
+
+    .menu__research {
+        margin-bottom: 0;
+        width: 384px;
+    }
+
+    .menu__input {
+        padding-left: 15px;
+    }
+
+    /*main*/
+    .principal {
+        padding: 0 7.5rem;
+    }
+
+    /*categories*/
+    .categories {
+        margin-bottom: 1.5rem;
+    }
+
+    .categories__title {
+        margin-bottom: 0;
+    }
+
+    .highlights {
+        padding: 0;
+    }
+
+    .highlights .highlights__playbar {
+        width: 416px;
+    }
+
+    .categories__img {
+        background-position-y: bottom;
+        height: 224px;
+        margin-bottom: 0;
+    }
+
+    /*events*/
+    .events__item {
+        width: 280px;
+    }
+
+    /*calendar*/
+    .calendar__item {
+        width: 330px;
+    }
+
+    /* Rodapé */
+    .footer {
+        padding-left: 7.5rem;
+        padding-right: 7.5rem;
+    }
+
+}

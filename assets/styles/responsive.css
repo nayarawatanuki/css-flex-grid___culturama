@@ -1,3 +1,6 @@
+@import "layout/flex/responsive.css";
+@import "layout/grid/responsive.css";
+
 @media(min-width: 720px) {
 
     /* Header */
@@ -8,14 +11,6 @@
     .menu__title {
         padding: 40px 55px;
         width: auto;
-    }
-
-    .header__seu-local::before {
-        padding-right: 8px;
-    }
-
-    .header__seu-local::after {
-        padding-left: 15px;
     }
 
     .menu__research {

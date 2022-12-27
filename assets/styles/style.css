@@ -1,13 +1,15 @@
 @import "layout/menu.css";
+@import "layout/banner.css";
 @import "layout/categories.css";
+@import "layout/highlights.css";
 @import "layout/events.css";
 @import "layout/calendar.css";
 @import "layout/footer.css";
 
 
-
 * {
     box-sizing: border-box;
+    padding: 0;
 }
 
 :root {
@@ -29,16 +31,6 @@ body {
     height: 100vh;
 }
 
-/*Estilos compartilhados*/
-.categories__title,
-.highlights,
-.events__title,
-.calendar__title {
-    font-family: var(--font-second);
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
 img {
     opacity: 1;
     transition: 0.5s;
@@ -53,9 +45,12 @@ img:hover {
     padding: 0 1.5rem;
 }
 
-/*banner*/
-.banner img {
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
+/*Estilos compartilhados*/
+.calendar__title,
+.categories__title,
+.events__title,
+.highlights {
+    font-family: var(--font-second);
+    font-size: 20px;
+    text-transform: uppercase;
 }

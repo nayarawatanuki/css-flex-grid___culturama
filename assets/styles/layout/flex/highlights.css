@@ -1,0 +1,9 @@
+.highlights {
+    align-items: center;
+    display: flex;
+    column-gap: 10px;
+}
+
+.highlights__playbar {
+    flex-grow: 1;
+}

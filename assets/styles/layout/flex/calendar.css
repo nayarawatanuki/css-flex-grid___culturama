@@ -1,0 +1,12 @@
+.calendar__list {
+    column-gap: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+.calendar__item {
+    flex-grow: 1;
+    max-width: 400px;
+}

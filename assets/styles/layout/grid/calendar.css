@@ -1,0 +1,23 @@
+.calendar__item {
+    display: grid;
+    grid-template-areas: 
+        "img img"
+        "info attraction";
+        grid-template-rows: auto 1fr;
+}
+
+.calendar__item img {
+    grid-area: img;
+}
+
+.calendar__item .calendar__info {
+    grid-area: info;
+}
+
+.calendar__item .calendar__attraction {
+    grid-area: attraction;
+}
+
+/*.calendar__item img {
+    grid-column: 1/3;
+}*/

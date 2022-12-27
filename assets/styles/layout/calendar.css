@@ -1,3 +1,6 @@
+@import "flex/calendar.css";
+@import "grid/calendar.css";
+
 .calendar__title {
     margin-bottom: 1rem;
     margin-top: 1.5rem;

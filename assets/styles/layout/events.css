@@ -1,3 +1,6 @@
+@import "flex/events.css";
+@import "grid/events.css";
+
 .events__title {
     margin-bottom: 1rem;
 }

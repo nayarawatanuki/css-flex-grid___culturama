@@ -30,3 +30,8 @@
 .events__item button {
     grid-area: button;
 }
+
+.events__button {
+    display: grid;
+    justify-content: center;
+}

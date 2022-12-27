@@ -18,6 +18,12 @@
 
         grid-area: 1 / 3 / 3 / 4;
     }
+
+    .events__button,
+    .calendar__button {
+        display: grid;
+        justify-content: end;
+    }
 }
 
 @media (min-width: 1440px) {

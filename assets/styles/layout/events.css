@@ -58,6 +58,7 @@
     border: none;
     color: white;
     cursor: pointer;
+    margin: 3rem 0;
     outline: none;
     padding: .75rem 0;
     transition: .5s;

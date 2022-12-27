@@ -18,6 +18,11 @@
     grid-area: attraction;
 }
 
+.calendar__button {
+    display: grid;
+    justify-content: center;
+}
+
 /*.calendar__item img {
     grid-column: 1/3;
 }*/

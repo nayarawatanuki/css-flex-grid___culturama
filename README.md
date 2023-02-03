@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Culturama" src="https://raw.githubusercontent.com/nayarawatanuki/css-flex-grid__culturama/main/assets/img/readme/culturama__cover.png"/>
+  <img alt="Culturama" src="https://raw.githubusercontent.com/nayarawatanuki/css-flex-grid__culturama/main/assets/img/readme/culturama__cover.png#vitrinedev"/>
 </h1>
 
 ### Índice
@@ -18,7 +18,7 @@
 O projeto **[Culturama](https://nayarawatanuki.github.io/css-flex-grid__culturama/)**, é uma proposta de página web para entretenimento. 
 Esse projeto contém o objetivo de aprender a fazer uma página totalmente responsiva, suportando todas as resoluções e dispositivos.
 
-</br>Desenvolvido para o curso de **PRATICANDO CSS: GRID E FLEXBOX** da platforma [Alura](https://www.alura.com.br/).
+</br>Desenvolvido para o curso de **PRATICANDO CSS: GRID E FLEXBOX** da plataforma [Alura](https://www.alura.com.br/).
 
 </br>
 
